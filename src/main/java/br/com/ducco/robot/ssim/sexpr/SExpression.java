@@ -14,7 +14,7 @@ public class SExpression {
     private String value;
 
     public boolean contains(String... keys) {
-        return Arrays.stream(keys).allMatch(value::contains);
+        return Arrays.stream(keys).anyMatch(value::contains);
     }
 
     //TODO

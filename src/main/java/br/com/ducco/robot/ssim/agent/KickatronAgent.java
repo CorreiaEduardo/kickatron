@@ -10,6 +10,6 @@ public interface KickatronAgent {
     String getTeamName();
 
     void sense(SExpression perceptors);
-    Optional<String> act();
+    String act();
 
 }
